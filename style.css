@@ -1,0 +1,96 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+}
+
+  .navbar{ 
+  display: flex;
+  justify-content:space-around ;
+  align-items: center;
+  padding:0 10% ;
+  padding-top: 3%;
+  
+}
+
+.navbar .list{
+  list-style: none;
+  display: flex;
+
+}
+
+.navbar .list .list-item{
+width: 100px;
+color: #f7b50f;
+font-size: 15px;
+
+}
+
+body{
+  height: 100vh;
+  width: 100%;
+  background-color: blueviolet;
+  background: linear-gradient(rgba(1, 9, 51, 0.5), rgba(0,91,99,0.5)), url('assets/pexels-maxyne-barcel-10402282 1.png');
+  background-position: top;
+  background-attachment: fixed;
+  background-color: #090202;
+  background-repeat:no-repeat ;
+  background-size:cover; 
+  
+}
+
+img[alt="logo"]{
+  width: 60%;
+
+}
+section[aria-label]{
+  text-align: center;
+}
+
+.button-small{
+  width: 95px;height: 35px;
+  font-weight: 600;
+  color: #ffff;
+  background-color: #fb4453;
+  border: 0;
+}
+
+  .hero .hero-heading{
+  margin: auto;
+  margin-top: 5%;
+  padding:0.4%;  
+  color: #fdbd28;
+  font-size:90px ;
+  width: 70%;
+  
+ 
+
+}
+
+  .button-large{
+  font-weight: 600;
+  font-size: 15px;
+  margin-top: 5%;
+  width: 20%;
+  height: 60px;
+  color: #ffff;
+  background-color: #fb4453;
+  border: 0;
+  
+
+
+}
+img[alt="bottom-logo"]{
+  width: 20%;
+  
+}
+
+.bottom{
+  text-align: right;
+  width: 60%;margin: 0 auto;
+  padding-top: 0%;
+}
+
+
